@@ -14,7 +14,7 @@
 			width:400px;
 			margin-bottom:12px;
 			text-align:center;
-			color:#ff4b33;
+			color:#443344;
 			font-size:40px;
 			padding-bottom:8px;
 			border-bottom:2px solid #ff4b33;
@@ -67,7 +67,7 @@
 	</head>
 	<body>
 		<div class="container">
-			<h1>shortlink app</h1>
+			<h1>SLK</h1>
 			<form method="post">
 				<input type="text" value="<%= h(params[:url]) %>" name="url" id="url" />
 				<input type="submit" value="shorten" id="submit" />
@@ -75,8 +75,8 @@
 			<div class="clear"></div>
 			<% if @shortcode %>
 			<div class="result">
-				Your shortened URL is:
-				<a href="http://my-shortlink-app.com/<%= @shortcode %>">http://my-shortlink-app.com/<%= @shortcode %></a>
+				Here It Is Bitches!
+				<a href="http://slk.com/<%= @shortcode %>">http://slk.com/<%= @shortcode %></a>
 			</div>
 			<% end %>
 		</div>
